@@ -25,4 +25,4 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           project: ./a11y-app
-          start: npm start
+          start: cd a11y-app && npm start
